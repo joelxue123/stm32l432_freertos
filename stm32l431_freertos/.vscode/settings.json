@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "makefile": "makefile",
+        "main.h": "c",
+        "stm32l4xx_hal.h": "c",
+        "usart.h": "c",
+        "stm32l4xx_hal_conf.h": "c",
+        "task.h": "c",
+        "freertos.h": "c"
+    }
+}

@@ -129,7 +129,11 @@ int main(void)
   /* definition and creation of myTimer01 */
   osTimerDef(myTimer01, Callback01);
   myTimer01Handle = osTimerCreate(osTimer(myTimer01), osTimerPeriodic, NULL);
-
+  if( myTimer01Handle != NULL )
+  {
+      // 启动定时器
+    //mak  osTimerStart( myTimer01Handle, 100 );
+  }
   /* USER CODE BEGIN RTOS_TIMERS */
   /* start timers, add new ones, ... */
   /* USER CODE END RTOS_TIMERS */
@@ -149,7 +153,7 @@ int main(void)
   defaultTaskHandle = osThreadCreate(osThread(defaultTask), NULL);
 
   /* definition and creation of myTask02 */
-  osThreadDef(myTask02, StartTask02, osPriorityIdle, 0, 128);
+  osThreadDef(myTask02, StartTask02, osPriorityIdle, 0, 256);
   myTask02Handle = osThreadCreate(osThread(myTask02), NULL);
 
   /* definition and creation of myTask03 */
@@ -306,19 +310,24 @@ static void MX_GPIO_Init(void)
 /* USER CODE END Header_StartDefaultTask */
 void StartDefaultTask(void const * argument)
 {
+      char buffer[256]; // 创建一个足够大的字符数组来存储结果
   /* USER CODE BEGIN 5 */
   /* Infinite loop */
+    osSignalSet(myTask02Handle, 0x01);
+    sprintf(buffer, "set task02 message");
+    HAL_UART_Transmit(&huart1,(uint8_t*)buffer, strlen(buffer), 1000); // 发送字符串并设置超
+    
   for(;;)
   {
  
-    char buffer[256]; // 创建一个足够大的字符数组来存储结果
+
     UBaseType_t uxArraySize, x;
    
     // 使用 sprintf 将格式化的字符串写入 buffer
     if(is_debug_thread_space)
     {
-      sprintf(buffer, "thread0  is %d. thread1  is %d thread2  is %d", system_stats_.min_stack_space_thread0,system_stats_.min_stack_space_thread1,system_stats_.min_stack_space_thread2);
-      HAL_UART_Transmit(&huart1,(uint8_t*)buffer, strlen(buffer), 1000); // 发送字符串并设置超
+   //   sprintf(buffer, "thread0  is %d. thread1  is %d thread2  is %d", system_stats_.min_stack_space_thread0,system_stats_.min_stack_space_thread1,system_stats_.min_stack_space_thread2);
+    //  HAL_UART_Transmit(&huart1,(uint8_t*)buffer, strlen(buffer), 1000); // 发送字符串并设置超
     }
     if(is_debug_thread_infor)
     {
@@ -328,13 +337,15 @@ void StartDefaultTask(void const * argument)
       {
 
         sprintf(buffer, "thread name is %s. time_used is %d\n", TaskStatusArray_[x].pcTaskName, TaskStatusArray_[x].ulRunTimeCounter);
-        HAL_UART_Transmit(&huart1,(uint8_t*)buffer, strlen(buffer), 1000); // 发送字符串并设置超
+    //    HAL_UART_Transmit(&huart1,(uint8_t*)buffer, strlen(buffer), 1000); // 发送字符串并设置超
       }
+
 
     }
 
     
     osDelay(1000);
+
   }
   /* USER CODE END 5 */
 }
@@ -351,9 +362,15 @@ void StartTask02(void const * argument)
 {
   /* USER CODE BEGIN StartTask02 */
   /* Infinite loop */
+  char buffer[64]; // 创建一个足够大的字符数组来存储结果
   for(;;)
   {
-    osDelay(100);
+     osDelay(10000);
+    osSignalWait(0x01, osWaitForever);
+    sprintf(buffer, "receage 0x01");
+    HAL_UART_Transmit(&huart1,(uint8_t*)buffer, strlen(buffer), 1000); // 发送字符串并设置超
+      
+
   }
   /* USER CODE END StartTask02 */
 }
@@ -371,7 +388,7 @@ void StartTask03(void const * argument)
   /* Infinite loop */
   for(;;)
   {
-    osDelay(1);
+    osDelay(1000);
   }
   /* USER CODE END StartTask03 */
 }

@@ -617,7 +617,7 @@ BaseType_t xTimerListsWereSwitched;
 					xListWasEmpty = listLIST_IS_EMPTY( pxOverflowTimerList );
 				}
 
-				vQueueWaitForMessageRestricted( xTimerQueue, ( xNextExpireTime - xTimeNow ), xListWasEmpty );
+				 ( xTimerQueue, ( xNextExpireTime - xTimeNow ), xListWasEmpty );
 
 				if( xTaskResumeAll() == pdFALSE )
 				{

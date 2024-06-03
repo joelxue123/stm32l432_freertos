@@ -1,0 +1,59 @@
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   stm32l431_freertos/Core/Inc/FreeRTOSConfig.h
+	modified:   stm32l431_freertos/Core/Src/main.c
+	modified:   stm32l431_freertos/Middlewares/Third_Party/FreeRTOS/Source/timers.c
+	modified:   stm32l431_freertos/build/cmsis_os.lst
+	modified:   stm32l431_freertos/build/croutine.lst
+	modified:   stm32l431_freertos/build/event_groups.lst
+	modified:   stm32l431_freertos/build/freertos.lst
+	modified:   stm32l431_freertos/build/heap_4.lst
+	modified:   stm32l431_freertos/build/list.lst
+	modified:   stm32l431_freertos/build/main.lst
+	modified:   stm32l431_freertos/build/main.o
+	modified:   stm32l431_freertos/build/port.lst
+	modified:   stm32l431_freertos/build/queue.lst
+	modified:   stm32l431_freertos/build/stm32l431_freertos.bin
+	modified:   stm32l431_freertos/build/stm32l431_freertos.elf
+	modified:   stm32l431_freertos/build/stm32l431_freertos.hex
+	modified:   stm32l431_freertos/build/stm32l431_freertos.map
+	modified:   stm32l431_freertos/build/stm32l4xx_hal.lst
+	modified:   stm32l431_freertos/build/stm32l4xx_hal_cortex.lst
+	modified:   stm32l431_freertos/build/stm32l4xx_hal_dma.lst
+	modified:   stm32l431_freertos/build/stm32l4xx_hal_dma_ex.lst
+	modified:   stm32l431_freertos/build/stm32l4xx_hal_exti.lst
+	modified:   stm32l431_freertos/build/stm32l4xx_hal_flash.lst
+	modified:   stm32l431_freertos/build/stm32l4xx_hal_flash_ex.lst
+	modified:   stm32l431_freertos/build/stm32l4xx_hal_flash_ramfunc.lst
+	modified:   stm32l431_freertos/build/stm32l4xx_hal_gpio.lst
+	modified:   stm32l431_freertos/build/stm32l4xx_hal_i2c.lst
+	modified:   stm32l431_freertos/build/stm32l4xx_hal_i2c_ex.lst
+	modified:   stm32l431_freertos/build/stm32l4xx_hal_msp.lst
+	modified:   stm32l431_freertos/build/stm32l4xx_hal_pwr.lst
+	modified:   stm32l431_freertos/build/stm32l4xx_hal_pwr_ex.lst
+	modified:   stm32l431_freertos/build/stm32l4xx_hal_rcc.lst
+	modified:   stm32l431_freertos/build/stm32l4xx_hal_rcc_ex.lst
+	modified:   stm32l431_freertos/build/stm32l4xx_hal_tim.lst
+	modified:   stm32l431_freertos/build/stm32l4xx_hal_tim_ex.lst
+	modified:   stm32l431_freertos/build/stm32l4xx_hal_uart.lst
+	modified:   stm32l431_freertos/build/stm32l4xx_hal_uart_ex.lst
+	modified:   stm32l431_freertos/build/stm32l4xx_it.lst
+	modified:   stm32l431_freertos/build/stream_buffer.lst
+	modified:   stm32l431_freertos/build/syscalls.lst
+	modified:   stm32l431_freertos/build/sysmem.lst
+	modified:   stm32l431_freertos/build/system_stm32l4xx.lst
+	modified:   stm32l431_freertos/build/tasks.lst
+	modified:   stm32l431_freertos/build/timers.lst
+	modified:   stm32l431_freertos/build/timers.o
+	deleted:    stm32l431_freertos/build/usart
+	modified:   stm32l431_freertos/build/usart.lst
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	README
+
+no changes added to commit (use "git add" and/or "git commit -a")

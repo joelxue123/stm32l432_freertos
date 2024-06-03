@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\82057\AppData\Local\Temp\cclopRTn.s 			page 1
+ARM GAS  C:\Users\82057\AppData\Local\Temp\ccIfhdgh.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\82057\AppData\Local\Temp\cclopRTn.s 			page 1
   29:Core/Src/syscalls.c **** #include <time.h>
   30:Core/Src/syscalls.c **** #include <sys/time.h>
   31:Core/Src/syscalls.c **** #include <sys/times.h>
-ARM GAS  C:\Users\82057\AppData\Local\Temp\cclopRTn.s 			page 2
+ARM GAS  C:\Users\82057\AppData\Local\Temp\ccIfhdgh.s 			page 2
 
 
   32:Core/Src/syscalls.c **** 
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\82057\AppData\Local\Temp\cclopRTn.s 			page 1
   65              		.fpu fpv4-sp-d16
   67              	_kill:
   68              	.LFB21:
-ARM GAS  C:\Users\82057\AppData\Local\Temp\cclopRTn.s 			page 3
+ARM GAS  C:\Users\82057\AppData\Local\Temp\ccIfhdgh.s 			page 3
 
 
   52:Core/Src/syscalls.c **** 
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\82057\AppData\Local\Temp\cclopRTn.s 			page 1
  113 0006 FFF7FEFF 		bl	_kill
  114              	.LVL3:
  115              	.L6:
-ARM GAS  C:\Users\82057\AppData\Local\Temp\cclopRTn.s 			page 4
+ARM GAS  C:\Users\82057\AppData\Local\Temp\ccIfhdgh.s 			page 4
 
 
  116 000a FEE7     		b	.L6
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\82057\AppData\Local\Temp\cclopRTn.s 			page 1
  160              	.L9:
   72:Core/Src/syscalls.c ****   {
  161              		.loc 1 72 0 discriminator 1
-ARM GAS  C:\Users\82057\AppData\Local\Temp\cclopRTn.s 			page 5
+ARM GAS  C:\Users\82057\AppData\Local\Temp\ccIfhdgh.s 			page 5
 
 
  162 0014 B442     		cmp	r4, r6
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\82057\AppData\Local\Temp\cclopRTn.s 			page 1
   85:Core/Src/syscalls.c ****   {
  205              		.loc 1 85 0 discriminator 3
  206 0010 0134     		adds	r4, r4, #1
-ARM GAS  C:\Users\82057\AppData\Local\Temp\cclopRTn.s 			page 6
+ARM GAS  C:\Users\82057\AppData\Local\Temp\ccIfhdgh.s 			page 6
 
 
  207              	.LVL15:
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\82057\AppData\Local\Temp\cclopRTn.s 			page 1
   98:Core/Src/syscalls.c **** 
   99:Core/Src/syscalls.c **** int _fstat(int file, struct stat *st)
  100:Core/Src/syscalls.c **** {
-ARM GAS  C:\Users\82057\AppData\Local\Temp\cclopRTn.s 			page 7
+ARM GAS  C:\Users\82057\AppData\Local\Temp\ccIfhdgh.s 			page 7
 
 
  254              		.loc 1 100 0
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\82057\AppData\Local\Temp\cclopRTn.s 			page 1
  302              	.LFB28:
  111:Core/Src/syscalls.c **** 
  112:Core/Src/syscalls.c **** int _lseek(int file, int ptr, int dir)
-ARM GAS  C:\Users\82057\AppData\Local\Temp\cclopRTn.s 			page 8
+ARM GAS  C:\Users\82057\AppData\Local\Temp\ccIfhdgh.s 			page 8
 
 
  113:Core/Src/syscalls.c **** {
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\82057\AppData\Local\Temp\cclopRTn.s 			page 1
  345              		.cfi_restore 1
  346              		.cfi_def_cfa_offset 0
  347 0008 7047     		bx	lr
-ARM GAS  C:\Users\82057\AppData\Local\Temp\cclopRTn.s 			page 9
+ARM GAS  C:\Users\82057\AppData\Local\Temp\ccIfhdgh.s 			page 9
 
 
  348              		.cfi_endproc
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\82057\AppData\Local\Temp\cclopRTn.s 			page 1
  396              	.LVL29:
  397 0000 08B5     		push	{r3, lr}
  398              	.LCFI7:
-ARM GAS  C:\Users\82057\AppData\Local\Temp\cclopRTn.s 			page 10
+ARM GAS  C:\Users\82057\AppData\Local\Temp\ccIfhdgh.s 			page 10
 
 
  399              		.cfi_def_cfa_offset 8
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\82057\AppData\Local\Temp\cclopRTn.s 			page 1
  148:Core/Src/syscalls.c **** int _stat(char *file, struct stat *st)
  149:Core/Src/syscalls.c **** {
  446              		.loc 1 149 0
-ARM GAS  C:\Users\82057\AppData\Local\Temp\cclopRTn.s 			page 11
+ARM GAS  C:\Users\82057\AppData\Local\Temp\ccIfhdgh.s 			page 11
 
 
  447              		.cfi_startproc
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\82057\AppData\Local\Temp\cclopRTn.s 			page 1
  491              	.LFE34:
  493              		.section	.text._fork,"ax",%progbits
  494              		.align	1
-ARM GAS  C:\Users\82057\AppData\Local\Temp\cclopRTn.s 			page 12
+ARM GAS  C:\Users\82057\AppData\Local\Temp\ccIfhdgh.s 			page 12
 
 
  495              		.global	_fork
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\82057\AppData\Local\Temp\cclopRTn.s 			page 1
  171:Core/Src/syscalls.c ****   (void)name;
  172:Core/Src/syscalls.c ****   (void)argv;
  173:Core/Src/syscalls.c ****   (void)env;
-ARM GAS  C:\Users\82057\AppData\Local\Temp\cclopRTn.s 			page 13
+ARM GAS  C:\Users\82057\AppData\Local\Temp\ccIfhdgh.s 			page 13
 
 
  174:Core/Src/syscalls.c ****   errno = ENOMEM;
@@ -760,51 +760,51 @@ ARM GAS  C:\Users\82057\AppData\Local\Temp\cclopRTn.s 			page 1
  581              		.file 11 "c:\\program files (x86)\\gnu tools arm embedded\\7 2018-q2-update\\arm-none-eabi\\includ
  582              		.file 12 "c:\\program files (x86)\\gnu tools arm embedded\\7 2018-q2-update\\arm-none-eabi\\includ
  583              		.file 13 "c:\\program files (x86)\\gnu tools arm embedded\\7 2018-q2-update\\arm-none-eabi\\includ
-ARM GAS  C:\Users\82057\AppData\Local\Temp\cclopRTn.s 			page 14
+ARM GAS  C:\Users\82057\AppData\Local\Temp\ccIfhdgh.s 			page 14
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 syscalls.c
-C:\Users\82057\AppData\Local\Temp\cclopRTn.s:18     .text.initialise_monitor_handles:00000000 $t
-C:\Users\82057\AppData\Local\Temp\cclopRTn.s:25     .text.initialise_monitor_handles:00000000 initialise_monitor_handles
-C:\Users\82057\AppData\Local\Temp\cclopRTn.s:39     .text._getpid:00000000 $t
-C:\Users\82057\AppData\Local\Temp\cclopRTn.s:46     .text._getpid:00000000 _getpid
-C:\Users\82057\AppData\Local\Temp\cclopRTn.s:60     .text._kill:00000000 $t
-C:\Users\82057\AppData\Local\Temp\cclopRTn.s:67     .text._kill:00000000 _kill
-C:\Users\82057\AppData\Local\Temp\cclopRTn.s:91     .text._exit:00000000 $t
-C:\Users\82057\AppData\Local\Temp\cclopRTn.s:98     .text._exit:00000000 _exit
-C:\Users\82057\AppData\Local\Temp\cclopRTn.s:121    .text._read:00000000 $t
-C:\Users\82057\AppData\Local\Temp\cclopRTn.s:128    .text._read:00000000 _read
-C:\Users\82057\AppData\Local\Temp\cclopRTn.s:171    .text._write:00000000 $t
-C:\Users\82057\AppData\Local\Temp\cclopRTn.s:178    .text._write:00000000 _write
-C:\Users\82057\AppData\Local\Temp\cclopRTn.s:222    .text._close:00000000 $t
-C:\Users\82057\AppData\Local\Temp\cclopRTn.s:229    .text._close:00000000 _close
-C:\Users\82057\AppData\Local\Temp\cclopRTn.s:245    .text._fstat:00000000 $t
-C:\Users\82057\AppData\Local\Temp\cclopRTn.s:252    .text._fstat:00000000 _fstat
-C:\Users\82057\AppData\Local\Temp\cclopRTn.s:271    .text._isatty:00000000 $t
-C:\Users\82057\AppData\Local\Temp\cclopRTn.s:278    .text._isatty:00000000 _isatty
-C:\Users\82057\AppData\Local\Temp\cclopRTn.s:294    .text._lseek:00000000 $t
-C:\Users\82057\AppData\Local\Temp\cclopRTn.s:301    .text._lseek:00000000 _lseek
-C:\Users\82057\AppData\Local\Temp\cclopRTn.s:317    .text._open:00000000 $t
-C:\Users\82057\AppData\Local\Temp\cclopRTn.s:324    .text._open:00000000 _open
-C:\Users\82057\AppData\Local\Temp\cclopRTn.s:352    .text._wait:00000000 $t
-C:\Users\82057\AppData\Local\Temp\cclopRTn.s:359    .text._wait:00000000 _wait
-C:\Users\82057\AppData\Local\Temp\cclopRTn.s:383    .text._unlink:00000000 $t
-C:\Users\82057\AppData\Local\Temp\cclopRTn.s:390    .text._unlink:00000000 _unlink
-C:\Users\82057\AppData\Local\Temp\cclopRTn.s:414    .text._times:00000000 $t
-C:\Users\82057\AppData\Local\Temp\cclopRTn.s:421    .text._times:00000000 _times
-C:\Users\82057\AppData\Local\Temp\cclopRTn.s:437    .text._stat:00000000 $t
-C:\Users\82057\AppData\Local\Temp\cclopRTn.s:444    .text._stat:00000000 _stat
-C:\Users\82057\AppData\Local\Temp\cclopRTn.s:463    .text._link:00000000 $t
-C:\Users\82057\AppData\Local\Temp\cclopRTn.s:470    .text._link:00000000 _link
-C:\Users\82057\AppData\Local\Temp\cclopRTn.s:494    .text._fork:00000000 $t
-C:\Users\82057\AppData\Local\Temp\cclopRTn.s:501    .text._fork:00000000 _fork
-C:\Users\82057\AppData\Local\Temp\cclopRTn.s:524    .text._execve:00000000 $t
-C:\Users\82057\AppData\Local\Temp\cclopRTn.s:531    .text._execve:00000000 _execve
-C:\Users\82057\AppData\Local\Temp\cclopRTn.s:566    .data.environ:00000000 environ
-C:\Users\82057\AppData\Local\Temp\cclopRTn.s:560    .bss.__env:00000000 __env
-C:\Users\82057\AppData\Local\Temp\cclopRTn.s:557    .bss.__env:00000000 $d
-C:\Users\82057\AppData\Local\Temp\cclopRTn.s:563    .data.environ:00000000 $d
+C:\Users\82057\AppData\Local\Temp\ccIfhdgh.s:18     .text.initialise_monitor_handles:00000000 $t
+C:\Users\82057\AppData\Local\Temp\ccIfhdgh.s:25     .text.initialise_monitor_handles:00000000 initialise_monitor_handles
+C:\Users\82057\AppData\Local\Temp\ccIfhdgh.s:39     .text._getpid:00000000 $t
+C:\Users\82057\AppData\Local\Temp\ccIfhdgh.s:46     .text._getpid:00000000 _getpid
+C:\Users\82057\AppData\Local\Temp\ccIfhdgh.s:60     .text._kill:00000000 $t
+C:\Users\82057\AppData\Local\Temp\ccIfhdgh.s:67     .text._kill:00000000 _kill
+C:\Users\82057\AppData\Local\Temp\ccIfhdgh.s:91     .text._exit:00000000 $t
+C:\Users\82057\AppData\Local\Temp\ccIfhdgh.s:98     .text._exit:00000000 _exit
+C:\Users\82057\AppData\Local\Temp\ccIfhdgh.s:121    .text._read:00000000 $t
+C:\Users\82057\AppData\Local\Temp\ccIfhdgh.s:128    .text._read:00000000 _read
+C:\Users\82057\AppData\Local\Temp\ccIfhdgh.s:171    .text._write:00000000 $t
+C:\Users\82057\AppData\Local\Temp\ccIfhdgh.s:178    .text._write:00000000 _write
+C:\Users\82057\AppData\Local\Temp\ccIfhdgh.s:222    .text._close:00000000 $t
+C:\Users\82057\AppData\Local\Temp\ccIfhdgh.s:229    .text._close:00000000 _close
+C:\Users\82057\AppData\Local\Temp\ccIfhdgh.s:245    .text._fstat:00000000 $t
+C:\Users\82057\AppData\Local\Temp\ccIfhdgh.s:252    .text._fstat:00000000 _fstat
+C:\Users\82057\AppData\Local\Temp\ccIfhdgh.s:271    .text._isatty:00000000 $t
+C:\Users\82057\AppData\Local\Temp\ccIfhdgh.s:278    .text._isatty:00000000 _isatty
+C:\Users\82057\AppData\Local\Temp\ccIfhdgh.s:294    .text._lseek:00000000 $t
+C:\Users\82057\AppData\Local\Temp\ccIfhdgh.s:301    .text._lseek:00000000 _lseek
+C:\Users\82057\AppData\Local\Temp\ccIfhdgh.s:317    .text._open:00000000 $t
+C:\Users\82057\AppData\Local\Temp\ccIfhdgh.s:324    .text._open:00000000 _open
+C:\Users\82057\AppData\Local\Temp\ccIfhdgh.s:352    .text._wait:00000000 $t
+C:\Users\82057\AppData\Local\Temp\ccIfhdgh.s:359    .text._wait:00000000 _wait
+C:\Users\82057\AppData\Local\Temp\ccIfhdgh.s:383    .text._unlink:00000000 $t
+C:\Users\82057\AppData\Local\Temp\ccIfhdgh.s:390    .text._unlink:00000000 _unlink
+C:\Users\82057\AppData\Local\Temp\ccIfhdgh.s:414    .text._times:00000000 $t
+C:\Users\82057\AppData\Local\Temp\ccIfhdgh.s:421    .text._times:00000000 _times
+C:\Users\82057\AppData\Local\Temp\ccIfhdgh.s:437    .text._stat:00000000 $t
+C:\Users\82057\AppData\Local\Temp\ccIfhdgh.s:444    .text._stat:00000000 _stat
+C:\Users\82057\AppData\Local\Temp\ccIfhdgh.s:463    .text._link:00000000 $t
+C:\Users\82057\AppData\Local\Temp\ccIfhdgh.s:470    .text._link:00000000 _link
+C:\Users\82057\AppData\Local\Temp\ccIfhdgh.s:494    .text._fork:00000000 $t
+C:\Users\82057\AppData\Local\Temp\ccIfhdgh.s:501    .text._fork:00000000 _fork
+C:\Users\82057\AppData\Local\Temp\ccIfhdgh.s:524    .text._execve:00000000 $t
+C:\Users\82057\AppData\Local\Temp\ccIfhdgh.s:531    .text._execve:00000000 _execve
+C:\Users\82057\AppData\Local\Temp\ccIfhdgh.s:566    .data.environ:00000000 environ
+C:\Users\82057\AppData\Local\Temp\ccIfhdgh.s:560    .bss.__env:00000000 __env
+C:\Users\82057\AppData\Local\Temp\ccIfhdgh.s:557    .bss.__env:00000000 $d
+C:\Users\82057\AppData\Local\Temp\ccIfhdgh.s:563    .data.environ:00000000 $d
 
 UNDEFINED SYMBOLS
 __errno
